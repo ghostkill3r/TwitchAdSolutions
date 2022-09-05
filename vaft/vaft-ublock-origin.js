@@ -72,8 +72,8 @@ twitch-videoad.js application/javascript
         scope.MainUrlByUrl = [];
         scope.EncodingCacheTimeout = 60000;
         scope.DefaultProxyType = null;
-        scope.DefaultForcedQuality = 'source';
-        scope.DefaultProxyQuality = 'source';
+        scope.DefaultForcedQuality = '720p';
+        scope.DefaultProxyQuality = '720p';
     }
     declareOptions(window);
     var TwitchAdblockSettings = {
